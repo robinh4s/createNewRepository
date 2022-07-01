@@ -1,0 +1,43 @@
+CMD - na pasta
+	mkdir nomePasta #criaNovaPasta
+	python -m pip install pip setuptools wheel --upgrade (NPRPNP) #configInicial
+ 	python -m venv venv #criaAmbienteVirtual
+	.\venv\Scripts\activate #ativaAmbienteVirtual
+	pip install django #instalaDjango
+
+GIT HUB
+CMD - na pasta
+	git config --global user.name "user" (NPRPNP) #configInicial
+	git config --global user.email "eng.robertoalvim@gmail.com" (NPRPNP) #configInicial
+	git config --global init.defaultBranch main (NPRPNP) #configInicial
+	git init
+CMD GIT BASH (NPRPNP) #configInicial
+	ssh-keygen -t rsa -C "eng.robertoalvim@gmail.com" 
+	enter > enter > enter >
+	c:\usuarios\usuario\.ssh\id_rsa.pub > abrir como texto e copiar tudo
+	abrir git hub > colar como nova chave nas SSH config do github 
+
+CMD
+	git remote add origin "add new origin ssh from gitgub" #adicionaNovoreRositório
+	git remote -v > para ver a origem de onde baixa e envia 	dados 
+	git push --set-upstream origin main > yes
+	git push
+	git status > nothing to comit or something to comit
+	git add main.py
+	git status
+	git push
+
+VSC 
+	create folder > .mypy_cache
+	create .gitignore
+
+VSC TEMINAL
+	django-admim startproject "nomedoprojeto" .
+	#o ponto cria dentro da pasta atual #cria arquivo manage.py dentro da pasta certa #
+
+VSC PARA MIGRAR
+	python manage.py migrate
+
+VSC PARA RECEBER LINK E CONFIGURAR SITE
+	python manage.py runserver
+
